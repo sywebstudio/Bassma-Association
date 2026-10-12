@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Club Basma — Tous pour un sourire</title>
+<meta name="description" content="Club Basma, association solidaire de jeunes lycéens — École Taibatoune. Tous pour un sourire.">
+<meta name="theme-color" content="#fbf6ea">
+<link rel="icon" href="./logo.jpg">
+<link rel="stylesheet" href="./style.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <filter id="wobble" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency=".04" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2.4"/></filter>
+    <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.3" cy="6.7" r="1.3" fill="currentColor"/></symbol>
+    <symbol id="d-sun" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="32" r="11" fill="var(--fill,none)"/><path d="M32 6v8M32 50.5v7M6 32h8M50 31.5h8M13.5 13.5l5.5 5.5M45 45l5 6M13 51l6-6M45.5 19l5-6M28 35q4 4.5 8.5 0"/><circle cx="28.5" cy="30" r=".8"/><circle cx="35.5" cy="30" r=".8"/></g></symbol>
+    <symbol id="d-heart" viewBox="0 0 64 64"><path d="M32 55C14 43 8 31 11 21c3-9 15-9 21 1 6-10 18-10 21-1 3 10-3 22-21 34z" fill="var(--fill,none)" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="d-star" viewBox="0 0 64 64"><path d="M32 7l7 15 16 2-12 11 3 16-14-8-14 8 3-16L9 24l16-2z" fill="var(--fill,none)" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="d-sparkle" viewBox="0 0 64 64"><path d="M32 6c2 14 6 18 20 20-14 2-18 6-20 20-2-14-6-18-20-20 14-2 18-6 20-20z" fill="var(--fill,none)" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="d-flower" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="15" r="8" fill="var(--fill,none)"/><circle cx="44" cy="24" r="8" fill="var(--fill,none)"/><circle cx="39.5" cy="38" r="8" fill="var(--fill,none)"/><circle cx="24.5" cy="38" r="8" fill="var(--fill,none)"/><circle cx="20" cy="24" r="8" fill="var(--fill,none)"/><circle cx="32" cy="29" r="5" fill="var(--fill2,none)"/><path d="M32 46c-1 7 1 12 0 17M32 55c-8-1-12-6-12-10 7 0 11 4 12 10z"/></g></symbol>
+    <symbol id="d-cloud" viewBox="0 0 64 64"><path d="M17 46a9 9 0 0 1-1-18 12 12 0 0 1 23-3 10 10 0 0 1 8 21z" fill="var(--fill,none)" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="d-rainbow" viewBox="0 0 64 64"><g fill="none" stroke-width="2.6" stroke-linecap="round"><path d="M5 50a27 27 0 0 1 54 0" stroke="var(--c1,#ef7a5c)"/><path d="M12 50a20 20 0 0 1 40 0" stroke="var(--c2,#ffc54d)"/><path d="M19 50a13 13 0 0 1 26 0" stroke="var(--c3,#065d55)"/></g></symbol>
+    <symbol id="d-butterfly" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M32 32C20 14 6 18 10 30c2 6 10 8 22 2zM32 32c12-18 26-14 22-2-2 6-10 8-22 2z" fill="var(--fill,none)"/><path d="M32 34c-10 2-16 10-12 18 3 5 10 0 12-18zM32 34c10 2 16 10 12 18-3 5-10 0-12-18z"/><path d="M32 22v26M32 22q-4-8-8-9M32 22q4-8 8-9"/></g></symbol>
+    <symbol id="d-balloon" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M32 6c9 0 16 8 16 18 0 11-9 19-16 20-7-1-16-9-16-20C16 14 23 6 32 6z" fill="var(--fill,none)"/><path d="M29 44l3 4 3-4M32 48c-4 5 4 8 0 14M25 16c-3 2-4 5-4 8"/></g></symbol>
+    <symbol id="d-gift" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M10 31h44v25H10zM8 22h48v9H8z" fill="var(--fill,none)"/><path d="M32 22v34M32 22c-8-12-18-6-12 0 3 2 8 1 12 0 4 1 9 2 12 0 6-6-4-12-12 0z"/></g></symbol>
+    <symbol id="d-hands" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M32 30c-7-6-13 0-9 6 2 3 6 5 9 7 3-2 7-4 9-7 4-6-2-12-9-6z" fill="var(--fill,none)"/><path d="M5 40c4 14 14 20 27 20s23-6 27-20M5 40c3-3 6-2 8 1M59 40c-3-3-6-2-8 1M16 52c5 3 10 4 16 4"/></g></symbol>
+    <symbol id="d-pencil" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 52l3-12L43 12l9 9-28 28z" fill="var(--fill,none)"/><path d="M15 40l9 9M38 17l9 9M12 52l3-12 9 9z"/></g></symbol>
+    <symbol id="d-ball" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="32" r="23" fill="var(--fill,none)"/><path d="M32 22l9 7-3 11H26l-3-11zM32 22V9M41 29l13-4M38 40l8 11M26 40l-8 11M23 29L10 25"/></g></symbol>
+    <symbol id="d-kid" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="14" r="8"/><path d="M28 16q4 3.5 8 0"/><circle cx="29" cy="12.5" r=".7"/><circle cx="35" cy="12.5" r=".7"/><path d="M32 23l-13 26h26z" fill="var(--fill,none)"/><path d="M24 33l-11-9M40 33l11-9M27 49v10M37 49v10"/></g></symbol>
+    <symbol id="d-bear" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="17" cy="16" r="7" fill="var(--fill,none)"/><circle cx="47" cy="16" r="7" fill="var(--fill,none)"/><circle cx="32" cy="34" r="20" fill="var(--fill,none)"/><ellipse cx="32" cy="41" rx="8" ry="6" fill="#fff"/><path d="M30 39h4M32 39v3M29 44q3 2 6 0"/><circle cx="24" cy="30" r="1.2"/><circle cx="40" cy="30" r="1.2"/></g></symbol>
+    <symbol id="d-smile" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="32" r="24" fill="var(--fill,none)"/><path d="M21 38q11 12 22 0"/><circle cx="24" cy="26" r="1.4"/><circle cx="40" cy="26" r="1.4"/></g></symbol>
+    <symbol id="d-arrow" viewBox="0 0 64 64"><path d="M6 12c18 0 42 8 46 34M40 38l12 10 5-14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="d-scribble" viewBox="0 0 64 64"><path d="M6 40c10-10 20-16 28-12s-6 14-14 14S6 38 16 24s30-16 40-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip" href="#contenu" data-i18n="skip">Aller au contenu</a>
+
+<header class="nav" id="nav">
+  <div class="nav__bar">
+    <a class="brand" href="#accueil" aria-label="Club Basma">
+      <span class="brand__logo"><img src="./logo.jpg" width="591" height="588" alt="Logo Club Basma"></span>
+      <span class="brand__txt"><strong>Club Basma</strong><small data-i18n="brandSub">Tous pour un sourire</small></span>
+    </a>
+    <nav class="nav__links" id="navLinks" aria-label="Navigation principale" data-i18n-aria="navAria">
+      <a href="#accueil" data-i18n="nav1">Accueil</a>
+      <a href="#activites" data-i18n="nav2">Activités</a>
+      <a href="#club" data-i18n="nav3">Le Club</a>
+      <a href="#rejoindre" data-i18n="nav4">Nous rejoindre</a>
+    </nav>
+    <div class="nav__tools">
+      <div class="lang" role="group" aria-label="Langue" data-i18n-aria="langAria">
+        <button type="button" class="lang__btn" data-lang="fr" aria-pressed="true">FR</button>
+        <button type="button" class="lang__btn" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="nav__ig" href="https://www.instagram.com/basma__association/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Club Basma" data-i18n-aria="igAria"><svg aria-hidden="true"><use href="#i-ig"/></svg></a>
+      <button type="button" class="burger" id="burger" aria-expanded="false" aria-controls="navLinks" aria-label="Menu" data-i18n-aria="menuAria"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="contenu">
+
+<!-- HERO -->
+<section class="hero" id="accueil">
+  <i class="dd dd--in sun-spin" data-d="sun" style="left:-34px;top:-30px;--w:150px;--c:var(--sun-d);--fill:var(--sun);--delay:.2s"></i>
+  <i class="dd dd--in drift hm" data-d="cloud" style="left:30%;top:7%;--w:84px;--c:var(--green);--fill:#fff;--delay:.5s"></i>
+  <i class="dd dd--in drift slow hm" data-d="cloud" style="right:6%;top:46%;--w:64px;--c:var(--green);--fill:#fff;--delay:.7s"></i>
+  <i class="dd dd--in beat" data-d="heart" style="left:46%;top:36%;--w:34px;--r:12deg;--c:var(--coral-d);--fill:var(--pink);--delay:1.1s"></i>
+  <i class="dd dd--in twinkle hm" data-d="sparkle" style="left:3%;top:48%;--w:36px;--c:var(--sun-d);--fill:var(--sun);--delay:1.2s"></i>
+  <i class="dd dd--in sway hm" data-d="flower" style="left:2%;bottom:6%;--w:64px;--r:-6deg;--c:var(--green);--fill:var(--pink);--fill2:var(--sun);--delay:1.3s"></i>
+  <i class="dd dd--in bob hm" data-d="butterfly" style="right:3%;top:10%;--w:62px;--r:14deg;--c:var(--green);--fill:var(--sun);--delay:1.0s"></i>
+  <i class="dd dd--in bob slow hm" data-d="balloon" style="right:1%;bottom:12%;--w:60px;--r:8deg;--c:var(--coral-d);--fill:var(--coral);--delay:1.4s"></i>
+  <div class="hero__grid">
+    <div class="hero__copy">
+      <p class="hero__tag"><span data-i18n="heroTag">Association solidaire de jeunes lycéens</span></p>
+      <h1 class="hero__title" id="heroTitle">
+        <span class="line"><span data-i18n="heroT1">Tous pour</span></span>
+        <span class="line"><span class="hero__smile"><span data-i18n="heroT2">un sourire</span>
+          <svg class="draw uline" viewBox="0 0 300 22" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M4 8c40 12 80 12 140 2s100-6 152 4"/><path pathLength="1" d="M60 18c40 3 90 2 160-4"/></svg></span></span>
+      </h1>
+      <p class="hero__lead" data-i18n="heroLead">Le Club Basma s’engage à venir en aide aux personnes dans le besoin, notamment aux enfants, pour contribuer à leur bonheur, à leur épanouissement et à leur bien-être.</p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#activites"><span data-i18n="heroBtn1">Découvrir nos activités</span></a>
+        <a class="btn btn--ghost" href="https://www.instagram.com/basma__association/" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true"><use href="#i-ig"/></svg><span data-i18n="heroBtn2">Notre Instagram</span></a>
+      </div>
+    </div>
+    <figure class="hero__photo">
+      <div class="hero__frame"><img src="./hero.jpg" width="960" height="1280" fetchpriority="high" alt="Un membre du club déguisé en clown porte un enfant, entouré d’enfants souriants dans une cour d’école" data-i18n-alt="heroAlt"></div>
+      <span class="tape tape--l" aria-hidden="true"></span>
+      <p class="hand-note hero__note"><span data-i18n="noteHero">Un petit geste, un grand sourire</span><svg class="doodle" aria-hidden="true"><use href="#d-arrow"/></svg></p>
+      <i class="dd dd--in twinkle" data-d="star" style="left:-8px;top:20%;--w:34px;--r:-10deg;--c:var(--sun-d);--fill:var(--sun);--delay:1.2s"></i>
+      <i class="dd dd--in bob" data-d="smile" style="right:-12px;bottom:-14px;--w:58px;--r:8deg;--c:var(--green);--fill:var(--sun);--delay:1.5s"></i>
+    </figure>
+  </div>
+</section>
+
+<div class="sep sep--hero" aria-hidden="true"><svg viewBox="0 0 1440 70" preserveAspectRatio="none"><path class="f" d="M0 30c120 26 220 26 340 6s240-30 380-10 260 40 400 22 220-24 320-8V70H0z"/><path class="l" d="M0 30c120 26 220 26 340 6s240-30 380-10 260 40 400 22 220-24 320-8"/></svg></div>
+
+<!-- INTRO -->
+<section class="intro">
+  <i class="dd sway hm" data-d="flower" style="left:6%;bottom:14%;--w:52px;--r:-8deg;--c:var(--green);--fill:var(--sun);--fill2:var(--pink)"></i>
+  <i class="dd twinkle hm" data-d="sparkle" style="right:9%;top:16%;--w:34px;--c:var(--coral-d);--fill:var(--pink)"></i>
+  <div class="wrap wrap--narrow intro__in">
+    <div class="intro__logo reveal"><img src="./logo.jpg" width="591" height="588" loading="lazy" alt="Logo officiel du Club Basma : deux personnes qui s’enlacent"></div>
+    <h2 class="reveal"><span data-i18n="introT1">Une famille qui sème le </span><span class="hl"><span data-i18n="introT2">bonheur</span><svg class="draw ring" viewBox="0 0 200 70" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M18 40C10 14 70 4 120 6s78 14 70 34-60 26-110 24S10 58 24 28"/></svg></span></h2>
+    <p class="reveal" data-i18n="introP">Le Club Basma est une association à vocation sociale et solidaire, portée par des jeunes animés par un esprit de solidarité, de générosité et de responsabilité sociale.</p>
+    <p class="hand-note school-line reveal"><svg class="doodle" aria-hidden="true"><use href="#d-heart"/></svg><span>Club Basma · <span data-school>École Taibatoune</span></span></p>
+  </div>
+</section>
+
+<div class="sep sep--a" aria-hidden="true"><svg viewBox="0 0 1440 70" preserveAspectRatio="none"><path class="f" d="M0 20c140 30 260 30 400 6s300-24 460-4 300 36 580 10V70H0z"/><path class="l" d="M0 20c140 30 260 30 400 6s300-24 460-4 300 36 580 10"/></svg></div>
+
+<!-- ACTIVITES -->
+<section class="activities" id="activites">
+  <i class="dd bob hm" data-d="pencil" style="left:3%;top:8%;--w:54px;--r:-24deg;--c:var(--green);--fill:var(--sun)"></i>
+  <i class="dd sway hm" data-d="balloon" style="right:4%;top:6%;--w:56px;--r:10deg;--c:var(--coral-d);--fill:var(--pink)"></i>
+  <i class="dd bob slow" data-d="ball" style="left:44%;bottom:5%;--w:52px;--r:12deg;--c:var(--green);--fill:#fff"></i>
+  <i class="dd twinkle hm" data-d="sparkle" style="right:12%;bottom:18%;--w:34px;--c:var(--sun-d);--fill:var(--sun)"></i>
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <h2 data-i18n="actT">Nos actions en images</h2>
+      <p data-i18n="actP">Dessin, peinture, jeux et sport : des moments de joie partagés avec les enfants.</p>
+    </header>
+    <div class="collage">
+      <figure class="shot shot--a reveal">
+        <span class="tape tape--c" aria-hidden="true"></span>
+        <div class="shot__img"><img src="./activity-1.jpg" width="960" height="1280" loading="lazy" alt="Des enfants jouent au football entre des plots et des cerceaux dans la cour d’une école" data-i18n-alt="alt1"></div>
+        <figcaption data-i18n="cap1">Activités ludiques et sportives</figcaption>
+        <i class="dd twinkle" data-d="star" style="right:-14px;top:-12px;--w:36px;--r:12deg;--c:var(--sun-d);--fill:var(--sun)"></i>
+      </figure>
+      <figure class="shot shot--b reveal">
+        <span class="tape tape--r" aria-hidden="true"></span>
+        <div class="shot__img"><img src="./activity-2.jpg" width="960" height="1280" loading="lazy" alt="Des enfants colorient des dessins avec des crayons autour d’une table" data-i18n-alt="alt2"></div>
+        <figcaption data-i18n="cap2">Ateliers de dessin</figcaption>
+        <i class="dd bob" data-d="heart" style="left:-16px;bottom:22%;--w:38px;--r:-12deg;--c:var(--coral-d);--fill:var(--pink)"></i>
+      </figure>
+      <div class="collage__note reveal">
+        <i class="dd bob" data-d="kid" style="position:static;--w:56px;--c:var(--green);--fill:var(--sun)"></i>
+        <p class="hand-note" data-i18n="noteAct">Dessiner, jouer, partager !</p>
+        <p data-i18n="collageNote">Chaque initiative favorise le partage, la créativité et les liens humains.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="sep sep--b" aria-hidden="true"><svg viewBox="0 0 1440 70" preserveAspectRatio="none"><path class="f" d="M0 34c200-30 360 20 560 6s340-34 540-8 240 20 340 4V70H0z"/><path class="l" d="M0 34c200-30 360 20 560 6s340-34 540-8 240 20 340 4"/></svg></div>
+
+<!-- LETTRES -->
+<section class="letters" id="club">
+  <i class="dd drift slow" data-d="cloud" style="left:58%;top:5%;--w:70px;--c:var(--green);--fill:#fff"></i>
+  <i class="dd bob hm" data-d="rainbow" style="right:5%;top:3%;--w:96px"></i>
+  <i class="dd sway hm" data-d="flower" style="left:2%;bottom:6%;--w:60px;--r:6deg;--c:var(--green);--fill:var(--pink);--fill2:var(--sun)"></i>
+  <i class="dd bob hm" data-d="gift" style="right:3%;bottom:10%;--w:56px;--r:10deg;--c:var(--green);--fill:var(--sun)"></i>
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <h2><span data-i18n="lettersT1">Ouvrez nos </span><span class="hl"><span data-i18n="lettersT2">lettres</span><svg class="draw uline" viewBox="0 0 300 22" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M4 10c30 8 60-6 90 2s60 6 90-2 70 4 112 2"/></svg></span></h2>
+      <p data-i18n="lettersP">Six messages pour découvrir qui nous sommes. Touchez une lettre pour l’ouvrir.</p>
+    </header>
+
+    <div class="letters__layout">
+      <div class="letters__grid" id="lettersGrid">
+        <article class="letter" data-i="1">
+          <h3 class="letter__h"><button type="button" class="letter__btn" aria-expanded="false" aria-controls="p1" id="b1">
+            <span class="flap" aria-hidden="true"></span>
+            <svg class="letter__ico doodle" aria-hidden="true"><use href="#d-flower"/></svg>
+            <span class="letter__t" data-i18n="s1t">Présentation et historique du club</span>
+            <span class="letter__chev" aria-hidden="true"></span>
+          </button></h3>
+          <div class="letter__panel" id="p1" role="region" aria-labelledby="b1"><div class="letter__clip"><div class="paper"><p data-i18n="s1p">Le Club Basma est une association à vocation sociale et solidaire, fondée en 2013 à Taïba par Samir Talmsani et Khadija Khalfaoui. Porté par des jeunes lycéens animés par un esprit de solidarité, de générosité et de responsabilité sociale, le club s’engage à venir en aide aux personnes dans le besoin, notamment aux enfants, afin de contribuer à leur bonheur, à leur épanouissement et à leur bien-être.</p></div></div></div>
+        </article>
+
+        <article class="letter" data-i="2">
+          <h3 class="letter__h"><button type="button" class="letter__btn" aria-expanded="false" aria-controls="p2" id="b2">
+            <span class="flap" aria-hidden="true"></span>
+            <svg class="letter__ico doodle" aria-hidden="true"><use href="#d-hands"/></svg>
+            <span class="letter__t" data-i18n="s2t">Nos actions et activités</span>
+            <span class="letter__chev" aria-hidden="true"></span>
+          </button></h3>
+          <div class="letter__panel" id="p2" role="region" aria-labelledby="b2"><div class="letter__clip"><div class="paper"><p data-i18n="s2p">À travers différentes initiatives solidaires, le Club Basma cherche à apporter de la joie, de l’espoir et du soutien aux personnes qui en ont le plus besoin. Ses actions comprennent notamment les collectes de dons, les distributions de fournitures scolaires, les ateliers de dessin et de peinture, ainsi que les activités ludiques et sportives destinées aux enfants. Ces initiatives favorisent également le partage, la créativité et les liens humains.</p></div></div></div>
+        </article>
+
+        <article class="letter" data-i="3">
+          <h3 class="letter__h"><button type="button" class="letter__btn" aria-expanded="false" aria-controls="p3" id="b3">
+            <span class="flap" aria-hidden="true"></span>
+            <svg class="letter__ico doodle" aria-hidden="true"><use href="#d-star"/></svg>
+            <span class="letter__t" data-i18n="s3t">Nos valeurs et nos objectifs</span>
+            <span class="letter__chev" aria-hidden="true"></span>
+          </button></h3>
+          <div class="letter__panel" id="p3" role="region" aria-labelledby="b3"><div class="letter__clip"><div class="paper"><p data-i18n="s3p">Le Club Basma repose sur des valeurs essentielles telles que l’entraide, le partage, la générosité, la positivité et l’engagement. Son objectif est de renforcer l’esprit de solidarité au sein de la société, de sensibiliser les jeunes aux causes sociales et de les encourager à participer activement à des projets collectifs. Le club permet également à ses membres de développer leur esprit d’équipe, leur sens des responsabilités et leur capacité à travailler ensemble.</p></div></div></div>
+        </article>
+
+        <article class="letter" data-i="4">
+          <h3 class="letter__h"><button type="button" class="letter__btn" aria-expanded="false" aria-controls="p4" id="b4">
+            <span class="flap" aria-hidden="true"></span>
+            <svg class="letter__ico doodle" aria-hidden="true"><use href="#d-kid"/></svg>
+            <span class="letter__t" data-i18n="s4t">Adhésion et recrutement des membres</span>
+            <span class="letter__chev" aria-hidden="true"></span>
+          </button></h3>
+          <div class="letter__panel" id="p4" role="region" aria-labelledby="b4"><div class="letter__clip"><div class="paper"><p data-i18n="s4p">Toute personne souhaitant rejoindre la famille Basma peut nous contacter via notre compte Instagram officiel Association Basma. Après la prise de contact, un lien d’inscription lui est envoyé afin de remplir un formulaire contenant les informations nécessaires, notamment le nom, le prénom et le numéro de téléphone. Une fois le formulaire complété et la cotisation réglée, le candidat devient officiellement membre du Club Basma et peut prendre part à ses activités, à ses projets et à ses initiatives solidaires.</p>
+            <a class="btn btn--small" href="https://www.instagram.com/basma__association/" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true"><use href="#i-ig"/></svg><span data-i18n="igCta">Écrire sur Instagram</span></a></div></div></div>
+        </article>
+
+        <article class="letter" data-i="5">
+          <h3 class="letter__h"><button type="button" class="letter__btn" aria-expanded="false" aria-controls="p5" id="b5">
+            <span class="flap" aria-hidden="true"></span>
+            <svg class="letter__ico doodle" aria-hidden="true"><use href="#d-rainbow"/></svg>
+            <span class="letter__t" data-i18n="s5t">Notre vision et notre mission</span>
+            <span class="letter__chev" aria-hidden="true"></span>
+          </button></h3>
+          <div class="letter__panel" id="p5" role="region" aria-labelledby="b5"><div class="letter__clip"><div class="paper"><p data-i18n="s5p">Le Club Basma aspire à contribuer à la construction d’une société plus solidaire, humaine et inclusive, dans laquelle chacun peut bénéficier de soutien et d’attention. À travers l’engagement de ses membres et la réalisation de projets caritatifs, il souhaite multiplier les initiatives positives, renforcer les liens sociaux et montrer que les jeunes peuvent jouer un rôle important dans l’amélioration de leur communauté.</p></div></div></div>
+        </article>
+
+        <article class="letter" data-i="6">
+          <h3 class="letter__h"><button type="button" class="letter__btn" aria-expanded="false" aria-controls="p6" id="b6">
+            <span class="flap" aria-hidden="true"></span>
+            <svg class="letter__ico doodle" aria-hidden="true"><use href="#d-smile"/></svg>
+            <span class="letter__t" data-i18n="s6t">Notre devise</span>
+            <span class="letter__chev" aria-hidden="true"></span>
+          </button></h3>
+          <div class="letter__panel" id="p6" role="region" aria-labelledby="b6"><div class="letter__clip"><div class="paper"><p data-i18n="s6pa">Plus qu’une simple association, le Club Basma représente un espace de générosité, d’engagement et d’humanité, où chaque action, aussi petite soit-elle, peut faire une grande différence.</p>
+            <p data-i18n="s6pb">« Tous pour un sourire » est bien plus qu’une devise : c’est l’expression de notre engagement à semer le bonheur, à redonner espoir et à contribuer, ensemble, à construire un avenir meilleur pour tous.</p></div></div></div>
+        </article>
+      </div>
+
+      <figure class="shot shot--c reveal">
+        <span class="tape tape--c" aria-hidden="true"></span>
+        <div class="shot__img"><img src="./activity-3.jpg" width="960" height="1280" loading="lazy" alt="Table d’atelier avec flacons de peinture, palettes et crayons de couleur préparés pour les enfants" data-i18n-alt="alt3"></div>
+        <figcaption data-i18n="cap3">Ateliers de peinture</figcaption>
+        <i class="dd twinkle" data-d="sparkle" style="left:-14px;top:8%;--w:32px;--c:var(--sun-d);--fill:var(--sun)"></i>
+        <i class="dd sway" data-d="pencil" style="right:-18px;bottom:16%;--w:46px;--r:-30deg;--c:var(--green);--fill:var(--coral)"></i>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<div class="sep sep--c" aria-hidden="true"><svg viewBox="0 0 1440 70" preserveAspectRatio="none"><path class="f" d="M0 26c180 30 300 24 460 2s320-30 500-4 320 30 480 8V70H0z"/><path class="l" d="M0 26c180 30 300 24 460 2s320-30 500-4 320 30 480 8"/></svg></div>
+
+<!-- REJOINDRE -->
+<section class="join" id="rejoindre">
+  <i class="dd bob hm" data-d="butterfly" style="left:46%;top:8%;--w:52px;--r:-10deg;--c:var(--green);--fill:var(--pink)"></i>
+  <i class="dd beat hm" data-d="heart" style="right:6%;top:12%;--w:40px;--r:12deg;--c:var(--coral-d);--fill:var(--coral)"></i>
+  <i class="dd sway hm" data-d="bear" style="right:4%;bottom:8%;--w:64px;--r:-6deg;--c:var(--green);--fill:var(--sun)"></i>
+  <div class="wrap join__grid">
+    <figure class="shot shot--d reveal">
+      <span class="tape tape--l" aria-hidden="true"></span>
+      <div class="shot__img"><img src="./activity-4.jpg" width="960" height="1280" loading="lazy" alt="Un groupe de jeunes marche ensemble dans une ruelle ombragée" data-i18n-alt="alt4"></div>
+      <figcaption data-i18n="cap4">Esprit d’équipe et de partage</figcaption>
+      <i class="dd bob" data-d="smile" style="right:-12px;top:-14px;--w:46px;--r:10deg;--c:var(--green);--fill:var(--sun)"></i>
+    </figure>
+    <div class="join__copy reveal">
+      <p class="hand-note join__note" data-i18n="noteJoin">Bienvenue dans la famille !</p>
+      <h2><span data-i18n="joinT1">Rejoignez la famille </span><span class="hl"><span data-i18n="joinT2">Basma</span><svg class="draw ring" viewBox="0 0 200 70" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M18 40C10 14 70 4 120 6s78 14 70 34-60 26-110 24S10 58 24 28"/></svg></span></h2>
+      <p data-i18n="joinP">Contactez-nous sur Instagram : un lien d’inscription vous sera envoyé pour devenir membre et participer à nos activités, nos projets et nos initiatives solidaires.</p>
+      <a class="btn btn--primary" href="https://www.instagram.com/basma__association/" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true"><use href="#i-ig"/></svg><span data-i18n="joinBtn">Rejoindre via Instagram</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- DEVISE + INSTAGRAM -->
+<section class="motto">
+  <i class="dd twinkle" data-d="star" style="left:8%;top:14%;--w:30px;--c:var(--sun);--fill:var(--sun)"></i>
+  <i class="dd twinkle hm" data-d="sparkle" style="right:10%;top:20%;--w:36px;--c:var(--sun);--fill:var(--sun);animation-delay:-1s"></i>
+  <i class="dd drift slow hm" data-d="cloud" style="right:5%;bottom:12%;--w:70px;--c:#9fd3c7;--fill:none"></i>
+  <div class="wrap wrap--narrow">
+    <p class="hand-note motto__note reveal" data-i18n="followT">Suivez nos sourires</p>
+    <h2 class="motto__t reveal"><span data-i18n="slogan">« Tous pour un sourire »</span>
+      <svg class="draw motto__smile" viewBox="0 0 220 60" aria-hidden="true"><path pathLength="1" d="M10 14c30 44 170 44 200 0"/><path pathLength="1" d="M38 18c-3-3-6-3-7 1M182 18c3-3 6-3 7 1" class="cheek"/></svg>
+      <i class="dd beat motto__heart" data-d="heart" style="--w:36px;--r:14deg;--c:var(--pink);--fill:var(--pink)"></i></h2>
+    <p class="reveal" data-i18n="followP">Retrouvez le Club Basma sur son compte Instagram officiel.</p>
+    <a class="btn btn--sun" href="https://www.instagram.com/basma__association/" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true"><use href="#i-ig"/></svg><span>@basma__association</span></a>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="foot__kids" aria-hidden="true">
+    <i class="dd bob" data-d="kid" style="--c:#fff;--fill:var(--coral)"></i>
+    <i class="dd sway" data-d="flower" style="--c:#fff;--fill:var(--pink);--fill2:var(--sun)"></i>
+    <i class="dd bob slow" data-d="bear" style="--c:#fff;--fill:var(--sun)"></i>
+    <i class="dd beat" data-d="heart" style="--c:var(--pink);--fill:var(--pink)"></i>
+    <i class="dd bob" data-d="kid" style="--c:#fff;--fill:var(--sun)"></i>
+    <i class="dd sway slow" data-d="flower" style="--c:#fff;--fill:var(--sun);--fill2:var(--coral)"></i>
+    <i class="dd bob slow" data-d="kid" style="--c:#fff;--fill:var(--pink)"></i>
+  </div>
+  <div class="wrap foot__grid">
+    <div class="foot__id">
+      <span class="foot__logo"><img src="./logo.jpg" width="591" height="588" loading="lazy" alt="Logo Club Basma"></span>
+      <div><p class="foot__name">Club Basma</p><p class="foot__slogan" data-i18n="slogan">« Tous pour un sourire »</p></div>
+    </div>
+    <div>
+      <p class="foot__school" data-school>École Taibatoune</p>
+      <a class="foot__ig" href="https://www.instagram.com/basma__association/" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true"><use href="#i-ig"/></svg><span data-i18n="footIg">Instagram officiel</span></a>
+    </div>
+  </div>
+  <p class="foot__copy">© <span id="year">2026</span> Club Basma · <span data-school>École Taibatoune</span></p>
+</footer>
+
+<a class="float-ig" href="https://www.instagram.com/basma__association/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Club Basma" data-i18n-aria="igAria">
+  <span class="float-ig__ico"><svg aria-hidden="true"><use href="#i-ig"/></svg></span><span class="float-ig__t" data-i18n="floatIg">Suivez-nous</span>
+</a>
+
+<script src="./script.js"></script>
+</body>
+</html>
